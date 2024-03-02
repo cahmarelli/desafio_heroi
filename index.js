@@ -1,11 +1,11 @@
 let nome = "Kallel"
-let xp = 7600
+let xp = 1000
 let nivel = ""
 
 //capturar o input 
 
 switch (true) {
-    case xp < 1000:
+    case xp <= 1000:
         nivel = "Ferro"
         break;
     case 1001 < xp && xp < 2000:
